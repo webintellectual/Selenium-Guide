@@ -17,8 +17,12 @@ Chrome driver: https://chromedriver.chromium.org/downloads
 My system specs:
 
 <img src="ReadmeGraphics/SystemSpecs.png" width=400>
+<hr/>
 
-<br/>
+# Project
+
+[Test Scripts written to google search and creating yahoo account](https://github.com/webintellectual/Selenium-Guide/blob/main/SeleniumTestScripts_Java/src/TestCases/TestCases.java)
+<hr/>
 
 # Issues Encountered
 1. Configuring selenium jars in eclipse project <br/>
