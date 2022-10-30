@@ -1,0 +1,36 @@
+package TestCases;
+
+import java.util.Arrays;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class logInTest {
+	public static void googleSearchUseCase() {
+		System.setProperty("webdriver.chrome.driver","/Users/akshay.1/Courses/Selenium/JarsAndDriver/chromedriver"); // To load driver
+		WebDriver driver = new ChromeDriver(); // creating driver object
+		driver.manage().window().maximize(); // maximises browser's window
+		driver.manage().deleteAllCookies(); // not mandatory
+		
+		// actual tasks starts from here:
+		driver.navigate().to("http://localhost:8000/api/logIn");
+		String[] sa = {"Novarun Deb"}; // text which we search on google
+		CharSequence[] csa;
+		csa = (CharSequence[]) Arrays.copyOf(sa, sa.length, CharSequence[].class); // Converted string to char sequence because sendkeys function used later accepts char sequence instead of string object.
+		
+		// findElement function is used to locate HTML elements. Here, we are exploiting name attribute
+		driver.findElement(By.name("q")).sendKeys(csa); // If you inspect you will notice that search box of google have name attribute = "q"
+		driver.findElement(By.name("btnK")).submit(); // type of this element is written as "submit" in source code.
+		
+		driver.close(); //  closes the browser tab
+//		driver.quit(); // quits whole browser
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

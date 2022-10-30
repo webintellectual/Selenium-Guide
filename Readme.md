@@ -1,0 +1,37 @@
+<img src="ReadmeGraphics/java.png" height=155>
+<img src="data:image/png;base64,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" width=105 />   
+<img src="ReadmeGraphics/eclipse.png" width=120/>             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" width = 111/>   
+<img src="ReadmeGraphics/selenium.svg" width=135 />
+
+> Selenium is a tool to automate web-app's testing.
+
+Java version: Use Java 8 only to avoid trouble.
+
+Selenium IDE: https://tinyurl.com/yyfepnws
+
+Eclipse IDE for Enterprise Java and Web Developers: https://tinyurl.com/2dpndpf4
+
+Selenium server and client for language: https://www.selenium.dev/downloads/
+
+Chrome driver: https://chromedriver.chromium.org/downloads
+
+My system specs:
+
+<img src="ReadmeGraphics/SystemSpecs.png" width=400>
+
+<br/>
+
+# Issues Encountered
+1. Configuring selenium jars in eclipse project <br/>
+[Solution](https://stackoverflow.com/questions/52245708/the-type-org-openqa-selenium-chrome-chromedriver-is-not-accessible): 
+Set java compiler to 1.8 or lower- <br/>
+a. Right click the project > properties > Java Compiler <br/>
+b. Uncheck the "Use compliance from execution environment ...." <br/>
+c. Set compiler compliance level to 1.8 or lower (that you have in your system)
+
+ <img src="https://i.stack.imgur.com/k7dOE.png" width=700/>
+
+<br/>
+ 2. If file (or project) explorer is missing in a workspace:
+
+ <img src="ReadmeGraphics/ProjectExplr.png" width=500/>
